@@ -1,61 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
 <?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
-  <track type="1" name="Dr. B">
+  <track type="1" name="Miracle">
     <event>
-      <title>Dr. B Graduates College</title>
+      <title>Miracle is born</title>
       <date type="start">
-        <year>1993</year>
-        <month>05</month>
+        <year>2004</year>
+        <month>06</month>
         <era>AD</era>
       </date>
-      <date type="end">
-        <year>1995</year>
-        <month>05</month>
+      <date type="Miracle Begins College">
+        <year>2023</year>
+        <month>08</month>
         <era>AD</era>
       </date>
-      <description>Dr. B graduates from Washington and Jefferson College, and looks ahead to starting grad school at Penn State.</description>
+      <description>Miracle attends Penn State Brandywine.</description>
       <lat>40.174</lat>
       <lon>-80.2462</lon>
-      <media>https://www.washjeff.edu/wp-content/uploads/oldmain_2018_04-1.jpg</media>
+      <media>https://www.brandywine.psu.edu/</media>
     </event>
     <event>
-      <title>Dr. B works on something</title>
+      <title>Miracle Attends Penn State Behrend</title>
       <date type="start">
-        <year>1990</year>
-        <month>05</month>
+        <year>2025</year>
+        <month>08</month>
         <era>AD</era>
       </date>
-      <date type="end">
-        <year>2005</year>
-        <month>05</month>
+      <date type="Miracle Works Toward Her Degree">
+        <year>2027</year>
+        <month>08</month>
         <era>AD</era>
       </date>
-      <description>Dr. B works on something that overlaps in time.</description>
+      <description>Miracle attends Penn State Erie, The Behrend College, and studies Digital Media, Arts, and Technology (DIGIT).</description>
       <lat>42.174</lat>
       <lon>-80.2462</lon>
     </event>
   </track>
-  <track type="2" name="Roma"> 
+  <track type="2" name="Moon Athletics"> 
     <event>
-      <title>There is no Year Zero!</title>
+      <title>MOON Athletics</title>
       <date type="start">
-        <year>0004</year>
-        <era>BC</era>
-      </date>
-      <date type="end">
-        <year>0004</year>
+        <year>2022</year>
         <era>AD</era>
       </date>
-      <description>There is no Year 0 on an AD - BC timeline because the monks who came up with the AD and BC timeline concept were working with Roman numerals and did not have a concept of a 0.</description>
+      <date type="Campus Leadership">
+        <year>2026</year>
+        <era>AD</era>
+      </date>
+      <description>Miracle serves as an event coordinator for the Black Student Union at Penn State Behrend.</description>
       <lat>41.9026</lat>
       <lon>12.4529</lon>
       <media>https://www.livescience.com/45510-anno-domini.html</media>
     </event>
     <event>
-      <title>Julius Caesar invades Britain</title>
+      <title></title>
       <date type="start">
         <year>0080</year>
         <era>BC</era>
@@ -64,7 +62,7 @@
         <year>0054</year>
         <era>BC</era>
       </date>
-      <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
+      <description></description>
       <lat>51.1789</lat>
       <lon>1.1713</lon>
     </event>
@@ -87,21 +85,21 @@
     </event>
   </track>
   
-  <track type="3" name="France">
+  <track type="3" name="">
     <event>
-      <title>Storming of the Bastille</title>
+      <title></title>
       <date type="start">
-        <year>1789</year>
-        <month>07</month>
-        <day>14</day>
-        <era>AD</era>
+        <year></year>
+        <month></month>
+        <day></day>
+        <era></era>
       </date>
       <!--    <date type="end">
            </date>-->
       <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
       <lat>48.8533</lat>
       <lon>2.3692</lon>
-      <media>https://www.historyhit.com/1789-storming-bastille/</media>
+      <media></media>
     </event>
     
     <event>
